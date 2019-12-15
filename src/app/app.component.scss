@@ -1,0 +1,44 @@
+@font-face{
+    font-family: 'new';
+    src:url('../assets/fonts/Mocking\ Bird\ -\ Personal\ Use.otf')
+}
+
+
+body{
+    background-color:white;
+}
+.banner {
+    background-color:#02a8a8;
+    width:auto;
+    height:100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    h1{
+        font-family: 'new';
+        text-align: center;
+        font-size: 80px;
+        color:#6d6464;
+    }
+}
+
+.container{
+    height: 200px;
+    width: auto;
+    margin-left: 77px;
+    margin-right: 145px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+.placeholder{
+    width: auto;
+    height: 423px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
